@@ -1,3 +1,4 @@
+use anchor_lang::prelude::*;
 use anchor_lang::{prelude::*, system_program::{Transfer, transfer}};
 
 mod state;
@@ -6,7 +7,7 @@ use state::*;
 mod context;
 use context::*;
 
-declare_id!("8UiQyegaKKEoAnGg4UfSsgouz4n2qvhbT9PwouJx2d5s");
+declare_id!("8qeyGoYHPjKDuu9jnSTM2fXuv7Q3KH94PXZwuA7pJVUT");
 
 #[program]
 pub mod anchor_vault {
